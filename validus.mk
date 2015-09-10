@@ -1,5 +1,9 @@
 $(call inherit-product, device/lge/d850/full_d850.mk)
 
+
+TARGET_SCREEN_HEIGHT := 1440
+TARGET_SCREEN_WIDTH := 2560
+
 # Inherit some common Validus stuff.
 $(call inherit-product, vendor/validus/config/common_full_phone.mk)
 
